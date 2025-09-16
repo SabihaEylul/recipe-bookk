@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0c10"/>
+      <stop offset="100%" stop-color="#1f2340"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#g)"/>
+  <circle cx="980" cy="120" r="160" fill="#4f46e5" opacity="0.2"/>
+  <circle cx="220" cy="300" r="140" fill="#22d3ee" opacity="0.18"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="56" fill="#e6edf3">
+    Da Vinci Mini Uygulama
+  </text>
+</svg>
+

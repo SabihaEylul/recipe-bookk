@@ -1,0 +1,39 @@
+:root {
+  --bg: #f8f4ea;
+  --card: #fff9f0;
+  --text: #2b2b2b;
+  --muted: #7a6b5a;
+  --primary: #d97706; /* turuncu */
+  --accent: #ffe8cc; /* krem vurgu */
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+a { color: var(--text); }
+
+nav a { color: var(--muted); }
+nav a:hover { color: var(--primary); }
+
+table { border: 1px solid #eadfce; background: #fff; }
+th, td { border-bottom: 1px solid #eadfce; padding: 8px; text-align: left; }
+thead th { background: #fff3e1; position: sticky; top: 0; }
+
+input, select, button {
+  border: 1px solid #eadfce;
+  background: #fff;
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+button { background: var(--primary); color: #fff; border-color: var(--primary); }
+input::placeholder, select, small { color: var(--muted); }
+.card { background: var(--card); border: 1px solid #eadfce; border-radius: 14px; padding: 14px; box-shadow: 0 6px 18px rgba(217, 119, 6, 0.08); }
